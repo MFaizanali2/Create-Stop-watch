@@ -25,7 +25,8 @@ function counter(){
             }
         }
     }
-    display.innerText = `${hour} ${min} ${sec} ${milliseconds}`;
+    display.innerText = `0${hour} : 0${min} : 0${sec} : ${milliseconds}`;
+    on.setAttribute('disabled', 'disabled');
 }
 
 function start(){
@@ -34,6 +35,7 @@ function start(){
 
 function pause(){
     clearInterval(show);
+    on.removeAttribute('disabled', 'disabled');
 }
 
 function reset(){

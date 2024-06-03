@@ -28,7 +28,7 @@ h1{
     border-radius: 0.8em;
     box-shadow: 0 0 80px rgba(1, 87, 185, 0.2);
 }
-#timer-display{
+#display{
     width: 110%;
     background-color: #3c95ff;
     position: relative;
@@ -36,7 +36,7 @@ h1{
     color: #f0f9ff;
     font-family: monospace;
     padding: 1em 0;
-    font-size: 2.5em;
+    font-size: 3em;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -59,6 +59,7 @@ h1{
     font-size: 20px;
     border-radius: 10px;
     font-family: "poppins";
+    transition: 1s;
 }
 #buttons button:hover{
     border: none;
